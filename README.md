@@ -16,6 +16,18 @@ This simulated project takes a look at what it could take to implement a compreh
 
 ---
 
+Hands On Labs:
+
+[Tenable DISA STIG Scan and Remediation Activities](https://github.com/antrellebrown/antrellebrown/tree/main/STIGs)
+<br>DISA STIGs - what are they? why are they important? who uses these? <br>
+
+Defense Information Systems Agency (DISA) Security Technical Implementation Guide (STIG) are a set of guidelines the U.S. Department of Defense uses for securing systems and networks. DISA STIGs are mandatory for systems in the DoD Information Network and for DoD contractors. They are essentially detailed checklists used to assist administrators in configuring IT assets securely and cover multiple products and systmes including OS, databases, applications and network devices. 
+
+My hands on practice for this section involved spinning up a Windows 11 virtual machine in our Azure environment, creating a new scan in Tenable with the DISA/STIG scan template then scanning the VM and using the noted failures in the scans Audits tab for remediation with PowerShell. 
+
+
+
+
 
   
 
